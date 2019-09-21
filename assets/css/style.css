@@ -3,6 +3,8 @@ body {
     margin:0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    position: relative;
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4, .name {
@@ -22,6 +24,8 @@ a:hover {
 .content {
    background-color: white;
    margin-top: 3rem;
+   padding-bottom: 2.5rem;
+   overflow: auto;
 }
 
 .profile {
@@ -48,3 +52,50 @@ a:hover {
     float: right;
     margin-top: 50px;
 }
+
+  footer {
+    background-color: #666;
+    color: white;
+    border-top:4px solid #4aaaa5;
+    text-align: center;
+    margin-top:150px;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.img1 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    margin: 10px;
+  }
+
+  .img2 {
+    border-color:#777777;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    margin: 10px;
+  }
+
+  .img3 {
+    border-color:#777777;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+    float: left;
+    margin: 10px;
+  }
+
+  .imagegird {
+    overflow: auto;
+  }
